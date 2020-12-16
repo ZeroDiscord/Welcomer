@@ -12,7 +12,7 @@ client.on("message", message => {
     let welcome = new Discord.MessageEmbed()
     .setTitle('New user has joined!')
     .setDescription(`Hello there ${member.user.username} Welcomer to our awesome server! now we have ${member.guild.memberCount} members, woah!`)
-   channel.send(welcome)
+   message.channel.send(welcome)
   })
 })
 client.login("Nzg4NjYyMDE2MjM4ODEzMjM0.X9mwvQ.KREGoC06Eh8XY4czBwY8qLtMZmU")
