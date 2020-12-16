@@ -4,6 +4,7 @@
 "description": "Basic Welcomer By 0_0",
 "main": "bot.js",
 "author": "ZeroSync",
+"main": "Index.js",
 "dependencies": {
 "discord.js": "^12.5.1"
 }
