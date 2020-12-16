@@ -1,0 +1,10 @@
+{
+"name": "Welcomer",
+"version": "v1.0.0",
+"description": "Basic Welcomer By 0_0",
+"main": "bot.js",
+"author": "ZeroSync",
+"dependencies": {
+"discord.js": "^12.5.1"
+}
+}
