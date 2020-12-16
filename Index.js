@@ -3,8 +3,8 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log(`${client.user.tag} is now online!`);
 });
-client.on("message", async message => {
-  if (message.content.startsWith("!ping")); {
+client.on("message", message => {
+  if (message.content.startsWith("!ping")){
     message.channel.send(`${client.ws.ping} is your bot latency`)
   }
   client.on("guildMemberAdd", async member=> {
