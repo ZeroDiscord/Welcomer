@@ -9,7 +9,7 @@ client.on("message", async message =>{
     message.channel.send(`The client websocket latency is ${client.ws.ping}ms (values in milliseconds)`)
   }
 });
-client.on("guildMemberAdd", async member => ,{
+client.on("guildMemberAdd", async member => {
   let channel = member.guild.channels.cache.find(c => c.name === 'welcome')
   let WELCOME = new Discord.MessageEmbed()
   .setTitle('New User Has Joined!')
