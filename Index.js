@@ -15,7 +15,7 @@ client.on("ready", () => {
     .setTimestamp()
     .setColor('BLUE')
     .setFooter('Welcome To Our Server')
-  
+  message.channel.send(embed);
   })
   
 client.login("Nzg4NjYyMDE2MjM4ODEzMjM0.X9mwvQ.KREGoC06Eh8XY4czBwY8qLtMZmU")
