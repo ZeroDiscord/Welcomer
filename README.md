@@ -6,9 +6,10 @@
 - If you want a simple welcomer obtain a token from [here](https://discord.com/developers)
 #### __Note__: Make sure to enable privilleged gateway intents! (Member Intents In The Portal)
 ![alt text](https://zerosnaps.cf/2faykzzg.gif)
-- Replace it in [Index.js](https://github.com/ZeroDiscord/Welcomer/blob/main/Index.js) make sure its between the **(" ")**
+#### - Replace it in [Index.js](https://github.com/ZeroDiscord/Welcomer/blob/main/Index.js) make sure its between the **(" ")**
 ![alt text](https://zerosnaps.cf/64os6q5i.gif)
-- Make a channel named welcome in your server and invite the bot after hosting it!
+#### - Make a channel named welcome in your server and invite the bot after hosting it!
+![alt text](http://zerosnaps.cf/jc6q9d85.png)
 - Host via **__Glitch__** or **__repl.it__** from links below!
 # Links
 - 🔗 [Youtube Channel](https://www.youtube.com/channel/UCF9E-xef9jL9QgziZRDHKKQ)
