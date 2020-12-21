@@ -1,0 +1,10 @@
+{
+"name": "Welcome 5 or more users in a specific guild",
+"version": "v1.0.0",
+"description": "Can be used in many guilds :P Contact: 0_0#6666",
+"author": "ZeroSync",
+"main": "Index.js",
+"dependencies": {
+"discord.js": "^12.5.1"
+}
+}
