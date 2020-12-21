@@ -3,7 +3,7 @@
 ## **This Welcomer bot was created by 0_0#6666**
 
 **__To deploy the bot follow the instructions documented below__**
-- If you want a simple welcomer obtain a token from [here](https://discord.com/developers)
+- If you want a simple welcomer obtain a token from [here](https://discord.com/developers)\n<span style="color:red">**__Note!__**: Make sure to enable privilleged gateway intents! (Member Intents In The Portal)</span>.
 - Replace it in [Index.js](https://github.com/ZeroDiscord/Welcomer/blob/main/Index.js) make sure its between the **("")**
 - Make a channel named welcome in your server and invite the bot after hosting it!
 - Host via **__Glitch__** or **__repl.it__** from links below!
@@ -28,4 +28,4 @@ Copyright 2020 © All RIghts are Reserved | If you are using any part of code pl
 
 # Dependencies 
 - Discord.js v12.5
-- Canvas (for image welcomer)
+- Canvas (for image welcomer) v1.4
