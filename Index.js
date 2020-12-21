@@ -5,7 +5,7 @@ Code Below provides info about the bot
 once it's ready
 */
 client.once("ready", () => {
-  console.log(`${client.user.tag} is now online!`)
+  console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by ZeroSync https://www.youtube.com/channel/UCF9E-xef9jL9QgziZRDHKKQ\n[INFO] Bot serving on Ready to serve in ${client.guilds.cache.size} servers\n[INFO] Bot serving ${client.users.cache.size} users\n[Invite Link] https://discord.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`)
 });
 /* Client when detects a message 
 then execute the code */
