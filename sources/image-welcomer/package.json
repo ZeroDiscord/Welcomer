@@ -1,0 +1,16 @@
+{
+  "name": "image-welcomer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZeroDisocrd",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "discord-canvas": "^1.4.1",
+    "discord.js": "^12.4.1",
+    "moment": "^2.29.1"
+  }
+}
