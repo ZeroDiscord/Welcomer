@@ -22,9 +22,9 @@ Copyright 2020 © All RIghts are Reserved | If you are using any part of code pl
 ``Hosting on repl.it may cause some errors join support server to obtain help``
 
 # Host On Repl.it
-[![Use on Repl.it](https://repl.it/badge/github/ZeroDiscord/EconomyBot)](https://repl.it/github/ZeroDiscord/EconomyBot)
+[![Use on Repl.it](https://repl.it/badge/github/ZeroDiscord/EconomyBot)](https://repl.it/github/ZeroDiscord/Welcomer)
 # Host On Glitch 
-[Click Here to Host On Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/ZeroDiscord/EconomyBot/)
+[Click Here to Host On Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/ZeroDiscord/Welcomer/)
 
 # Dependencies 
 - Discord.js v12.5
