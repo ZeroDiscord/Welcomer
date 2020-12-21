@@ -1,6 +1,6 @@
 # Welcomer <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 **A welcomer bot for discord written in discord.js v12 very simple to use with code and deployment instructions!**
-**This Economy bot was created by 0_0#6666**
+## **This Welcomer bot was created by 0_0#6666**
 
 **__To deploy the bot follow the instructions documented below__**
 - If you want a simple welcomer obtain a token from [here](https://discord.com/developers)
