@@ -33,3 +33,6 @@ Copyright 2020 © All RIghts are Reserved | If you are using any part of code pl
 # Dependencies 
 - Discord.js v12.5
 - Canvas (for image welcomer) v1.4
+## Need help? Join the [Support Server](https://discord.gg/REAW5VM)
+
+### © Zero | 0_0#6666 - 2020
