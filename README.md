@@ -15,7 +15,7 @@
 - 🔗 [Youtube Channel](https://www.youtube.com/channel/UCF9E-xef9jL9QgziZRDHKKQ)
 - [Support Server Link](https://discord.gg/REAW5VM)
 # Copyright 
-Copyright 2020 © All RIghts are Reserved | If you are using any part of code please give me credits for the same. Thanks
+Copyright 2021 © All RIghts are Reserved | If you are using any part of code please give me credits for the same. Thanks
 
 # License
 **Creative Commons Zero v1.0 Universal**
