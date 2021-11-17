@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+   "engines": {
+    "node": "16.x"
+  },
   "author": "ZeroDisocrd",
   "license": "CC0-1.0",
   "dependencies": {
