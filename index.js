@@ -6,7 +6,7 @@ db.on('error', err => console.log('Connection Error', err));
 const {
     token,
     prefix
-} = require('./sources/image-welcomer/config.json')
+} = require('./config.json')
 let canvax = require('canvas')
 canvax.registerFont("./storage/Uni Sans Heavy.otf", { family: 'Discord' })
 canvax.registerFont("./storage/DejaVuSansCondensed-Bold.ttf", { family: 'Discordx' })
