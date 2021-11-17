@@ -19,8 +19,8 @@
     "keyv": "^4.0.4",
     "moment": "^2.29.1",
     "weird-to-normal-chars": "^1.8.0"
-  }
-},
+  },
 "devDependencies": {
     "node": "^16.9.1"
   }
+}
