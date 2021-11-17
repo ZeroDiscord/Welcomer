@@ -1,0 +1,20 @@
+{
+  "name": "image-welcomer",
+  "version": "2.0.0",
+  "description": "Image welcomer at it's best",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ZeroDisocrd",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.3",
+    "canvas": "^2.8.0",
+    "canvas-constructor": "^5.0.1",
+    "discord.js": "^13.3.1",
+    "keyv": "^4.0.4",
+    "moment": "^2.29.1",
+    "weird-to-normal-chars": "^1.8.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Welcomer",
+  "version": "v2.0.0",
+  "description": "Basic Welcomer written in v13 By 0_0",
+  "main": "index.js",
+  "author": "ZeroSync",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
