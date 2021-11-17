@@ -17,7 +17,6 @@
     "canvas-constructor": "^5.0.1",
     "discord.js": "^13.3.1",
     "keyv": "^4.0.4",
-    "moment": "^2.29.1",
     "weird-to-normal-chars": "^1.8.0"
   },
 "devDependencies": {
