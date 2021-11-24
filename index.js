@@ -18,25 +18,27 @@ const client = new Client({
   once it's ready
   */
   client.once("ready", () => {
-    console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by ZeroSync https://www.youtube.com/c/ZeroSync\n[INFO] Bot serving on Ready to serve in ${client.guilds.cache.size} servers\n[INFO] Bot serving ${client.users.cache.size} users\n[Invite Link] https://discord.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`)
+    console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by ZeroSync https://www.youtube.com/c/ZeroSync\n[INFO] Ready to serve in ${client.guilds.cache.size} servers\n[INFO] Bot serving ${client.users.cache.size} users\n[Invite Link] https://discord.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`)
   });
   /* Client when detects a message 
   then execute the code */
   client.on("messageCreate", async message => {
     if(message.author.bot) return;
-    if(!message.content.startsWith(prefix)) return;
+    else if(!message.content.startsWith(prefix)) return;
+      
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
+      
     if(command === "ping") {
       message.reply(`The client websocket latency is **${client.ws.ping}ms** (values in milliseconds)`)
-    }
-    if(command === "add") {
+    } else if(command === "add") {
      client.emit("guildMemberAdd", message.member)
     }
-    if(command === "setchannel") {
-      if(!message.member.permissions.has("MANAGE_GUILD")) return message.reply(":x: | Missing permissions, require `MANAGE_GUILD`")
-      let channel = message.mentions.channels.first()
-      if(!channel) return message.reply(`:x: | Missing arguments, required \`<channel>\`\n __Example__: ${prefix}setchannel ${message.channel}`)
+    else if(command === "setchannel") {
+      if(!message.member.permissions.has("MANAGE_GUILD")) return message.reply(":x: | Missing permissions, require `MANAGE_GUILD`");
+        
+      let channel = message.mentions.channels.first();
+      if(!channel) return message.reply(`:x: | Missing arguments, required \`<channel>\`\n __Example__: ${prefix}setchannel ${message.channel}`);
       await db.set(`${message.guild.id}`, channel.id)
       message.reply({
         embeds: [ new MessageEmbed()
@@ -47,7 +49,7 @@ const client = new Client({
         ]
       })
     }
-    if(command === "channel") {
+    else if(command === "channel") {
       let channel = await db.get(`${message.guild.id}`)
       if(channel) {
         message.reply({
@@ -60,7 +62,7 @@ const client = new Client({
         })
       }
     }
-    if(command === "setbackground"){
+    else if (command === "setbackground"){
       if(!message.member.permissions.has("MANAGE_GUILD")) return message.reply(":x: | Missing permissions, require `MANAGE_GUILD`")
       if(args[0] && !args[0].startsWith("http")) return message.reply("Please provide a valid URL for an image **or** upload an image to set as background.")
       let background = message.attachments.first() ? message.attachments.first().url : args[0]
@@ -76,7 +78,7 @@ const client = new Client({
         ]
       })
     }
-      if(command === "background") {
+      else if(command === "background") {
     let background = await db.get(`bg_${message.guild.id}`)
     if(background) {
       message.reply({
